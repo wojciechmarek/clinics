@@ -115,7 +115,7 @@
                     $Nazwa=$wiersz['Nazwa'];
                     $Adres=$wiersz['Adres'];
                     
-                    echo '<li> ' .$Miejscowosc. ' '.$Adres.'; Nazwa placówki: '.$Nazwa.'</li>' ;
+                    echo '<li> ' .$Miejscowosc. ' '.$Adres.'; Nazwa placówki: '.$Nazwa.' - <b>NAJBLIŻSZY WOLNY TERMIN ZA: 'rand(1, 50)'</b></li>' ;
                     
                     
                     
@@ -145,7 +145,7 @@
                     $Nazwa=$wiersz['Nazwa'];
                     $Adres=$wiersz['Adres'];
                     
-                    echo '<li> ' .$Miejscowosc. ' '.$Adres.'; Nazwa placówki: '.$Nazwa.'</li>' ;
+                    echo '<li> ' .$Miejscowosc. ' '.$Adres.'; Nazwa placówki: '.$Nazwa.' - <b>NAJBLIŻSZY WOLNY TERMIN ZA: 'rand(1, 50)'</b></li>' ;
                     
                     
                     
